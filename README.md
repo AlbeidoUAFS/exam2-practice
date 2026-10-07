@@ -10,7 +10,8 @@ Create a **Single Page Application(SPA)** using *HTML/JavaScript/BootStrap CSS* 
 | HTTP Method | Endpoint | Description | Payload Body (JSON) |
 | ----------- | -------- | ----------- | ------------------- |
 | GET | /api/orders | Retrieve all orders | None |
-| POST | /api/orders | Create new order | "{ ""username"", ""lastname"", ""firstname"", ""passwd"", ""email"", ""urole"" }" | 
+| GET | /api/orders/:id | Retrieve order by orderID | None |
+| POST | /api/orders | Create new order | " { ""orderDesc"", ""quantity"", ""unitCost"" }" | 
 
 #### Create MySQL Database
 ```
